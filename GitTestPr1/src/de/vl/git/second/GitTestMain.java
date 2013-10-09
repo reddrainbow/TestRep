@@ -6,13 +6,13 @@ public class GitTestMain {
 		System.out.println("Git is cool");
 		GitTestMain thisClass = new GitTestMain();
 		int i=1;
-		thisClass.testParameterMethod(i++, i);
-		thisClass.testParameterMethod(i, i++);
+		thisClass.testParameterMethod(i++, i,i++);
+		thisClass.testParameterMethod(i, i++,i);
 
 	}
 	
-	public void testParameterMethod(int p1, int p2){
-		System.out.println("p1 = "+p1+"; p2 = "+p2);
+	public void testParameterMethod(int p1, int p2, int p3){
+		System.out.println("p1 = "+p1+"; p2 = "+p2+"; p3 = "+p3);
 	}
 
 }
