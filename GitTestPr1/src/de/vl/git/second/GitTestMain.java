@@ -8,6 +8,8 @@ public class GitTestMain {
 		int i=1;
 		thisClass.testParameterMethod(i++, i);
 		thisClass.testParameterMethod(i, i++);
+		
+		System.out.println("Just for merge");
 
 	}
 	
